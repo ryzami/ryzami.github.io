@@ -1,1 +1,1 @@
-# ryzami.github.io
+skbidi sigma
