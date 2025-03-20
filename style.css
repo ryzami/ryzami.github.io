@@ -30,31 +30,31 @@ body {
     */
 
             @font-face {
-                font-family: Nunito;
-                src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
+                font-family: Freepixel;
+                src: url('font/Freepixel.ttf');
             }
 
             @font-face {
-                font-family: Nunito;
-                src: url('https://sadhost.neocities.org/fonts/Nunito-Bold.ttf');
+                font-family: Freepixel;
+                src: url('font/Freepixel.ttf');
                 font-weight: bold;
             }
 
             @font-face {
-                font-family: Nunito;
-                src: url('https://sadhost.neocities.org/fonts/Nunito-Italic.ttf');
+                font-family: Freepixel;
+                src: url('font/Freepixel.ttf');
                 font-style: italic;
             }
 
             @font-face {
-                font-family: Nunito;
-                src: url('https://sadhost.neocities.org/fonts/Nunito-BoldItalic.ttf');
+                font-family: Freepixel;
+                src: url('font/Freepixel.ttf');
                 font-style: italic;
                 font-weight: bold;
             }
 
             body {
-                font-family: 'Nunito', sans-serif;
+                font-family: 'Freepixel', sans-serif;
                 margin: 0;
                 background-color: #08031A;
                 /* you can delete the line below if you'd prefer to not use an image */
