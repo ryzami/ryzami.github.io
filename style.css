@@ -208,6 +208,11 @@ body {
                 background-color: #13092D;
             }
 
+.divider {
+    height: 20px;
+    background-color: black;
+    margin: auto;
+}
 
             /* BELOW THIS POINT IS MEDIA QUERY */
 
