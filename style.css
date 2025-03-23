@@ -218,6 +218,33 @@ body {
                 }
             }
 
-cursor {
-    cursor: url("images/image0.jpg"), auto;
-}
+            .element:hover {
+                cursor: auto
+            }
+
+            .content a .element:hover,.element[data-scrollto]:hover {
+                transform: rotate(calc(1deg*var(--r))) scale(calc(var(--s) * 1.05));
+                cursor: pointer
+            }
+
+            .content a .element:hover button {
+                cursor: pointer
+            }
+
+            .cursorMode .cursorReal {
+                background-image: var(--cu);
+                height: 32px;
+                width: 32px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                position: fixed;
+                top: 100px;
+                left: 100px;
+                z-index: 999999999999999999999;
+                pointer-events: none;
+            }
+
+            .cursorMode,.cursorMode * {
+                cursor: none !important
+            }
