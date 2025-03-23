@@ -1,5 +1,6 @@
+
 body {
-  background-image: url("images/background.gif"); /* Added quotes around the URL */
+  background-image: url(images/background.gif); /* Added quotes around the URL */
   color: white;
 }
 
@@ -30,31 +31,12 @@ body {
     */
 
             @font-face {
-                font-family: Freepixel;
-                src: url(font/Freepixel.ttf);
-            }
-
-            @font-face {
-                font-family: Freepixel;
-                src: url(font/Freepixel.ttf);
-                font-weight: bold;
-            }
-
-            @font-face {
-                font-family: Freepixel;
-                src: url(font/Freepixel.ttf);
-                font-style: italic;
-            }
-
-            @font-face {
-                font-family: Freepixel;
-                src: url(font/Freepixel.ttf);
-                font-style: italic;
-                font-weight: bold;
+                font-family: pixel;
+                src: url("font/pixel.ttf");
             }
 
             body {
-                font-family: 'Freepixel', Freepixel;
+                font-family: 'pixel';
                 margin: 0;
                 background-color: #08031A;
                 /* you can delete the line below if you'd prefer to not use an image */
