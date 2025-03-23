@@ -13,7 +13,7 @@ body {
 
             @font-face {
                 font-family: pixel;
-                src: url("https://github.com/bjerrep/ssd1306/raw/refs/heads/master/examples/fonts/FreePixel.ttf");
+                src: url("../pixel.ttf");
             }
 
             body {
