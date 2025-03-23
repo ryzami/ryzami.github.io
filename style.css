@@ -31,24 +31,24 @@ body {
 
             @font-face {
                 font-family: Freepixel;
-                src: url('https://nekoxa.com/font/Freepixel.ttf');
+                src: url(font/Freepixel.ttf);
             }
 
             @font-face {
                 font-family: Freepixel;
-                src: url('https://nekoxa.com/font/Freepixel.ttf');
+                src: url(font/Freepixel.ttf);
                 font-weight: bold;
             }
 
             @font-face {
                 font-family: Freepixel;
-                src: url('https://nekoxa.com/font/Freepixel.ttf');
+                src: url(font/Freepixel.ttf);
                 font-style: italic;
             }
 
             @font-face {
                 font-family: Freepixel;
-                src: url('https://nekoxa.com/font/Freepixel.ttf');
+                src: url(font/Freepixel.ttf);
                 font-style: italic;
                 font-weight: bold;
             }
