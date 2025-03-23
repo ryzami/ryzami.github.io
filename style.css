@@ -11,17 +11,15 @@ body {
                 --content: #FFFFFF;
             }
 
-            @font-face {
-                font-family: pixel;
-                src: url("font/PixelOperator.ttf");
-            }
-            @font-face {
-                font-family: pixel2;
-                src: url("font/Freepixel.ttf");
-            }
+            @font-face { 
+                font-family: 'PixelOperator';
+                src: url('/fonts/PixelOperator.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            } 
 
             body {
-                font-family: 'pixel';
+                font-family: 'PixelOperator';
                 margin: 0;
                 background-color: #08031A;
                 /* you can delete the line below if you'd prefer to not use an image */
