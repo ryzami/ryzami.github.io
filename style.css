@@ -5,7 +5,7 @@ html {
 body {
     background-image: url(images/background.gif);
     color: white;
-    cursor: url("/images/animedonny.gif"), default;
+    cursor: url("/images/animedonny.gif"), auto;
     min-height: 100%;
 }
 
